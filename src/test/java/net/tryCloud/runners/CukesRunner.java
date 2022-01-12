@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
                 "json:target/cucumber.json"
         },
         features = "src/test/resources/features",
-        glue = "com/mgl/step_definitions",
+        glue = "net/tryCloud/step_definitions",
         dryRun = true,
         tags = "@pmTrucksChecker" //"@mileTruckTest"
 )
